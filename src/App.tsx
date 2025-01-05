@@ -20,6 +20,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React + Typescript + React Router 6 + SCSS</h1>
+      <h3> + settings for github action + lints</h3>
       <ul className="menu">
         <li className="menuItem">
           <NavLink to="/home">home</NavLink>
