@@ -19,7 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + Typescript + React Router 6</h1>
+      <h1>Vite + React + Typescript + React Router 6 + SCSS</h1>
       <ul className="menu">
         <li className="menuItem">
           <NavLink to="/home">home</NavLink>
