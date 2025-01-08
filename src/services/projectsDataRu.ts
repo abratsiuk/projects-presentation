@@ -2,6 +2,29 @@ import { IProject } from '../interfaces/IProject';
 
 export const projectsDataRu: IProject[] = [
   {
+    code: 'presentation',
+    imageSmall: 'images/projects/presentation_small.png',
+    imageMedium: 'images/projects/presentation_medium.png',
+    images: ['images/projects/presentation_1.png'],
+    name: 'Презентация проектов',
+    shortDescription:
+      'Список проектов с описанием и использованными технологиям, с ссылками на демо и репозиторий.',
+    fullDescription: '',
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
+      { image: 'images/technology/sass32.png', name: 'Sass' },
+      { image: 'images/technology/bem32.png', name: 'BEM' },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+    ],
+    comment: ``,
+    state: 'inProgress',
+    demo: 'https://abratsiuk.github.io/projects-presentation/',
+    repo: 'https://github.com/abratsiuk/projects-presentation',
+  },
+  {
     code: 'p5.todos',
     imageSmall: 'images/projects/p5.todos_small.png',
     imageMedium: 'images/projects/p5.todos_medium.png',
