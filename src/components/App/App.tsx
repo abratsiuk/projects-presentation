@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home } from '../Home/Home';
-import { NotFound } from '../NotFound/NotFound';
+import { Home } from '../Home';
+import { NotFound } from '../NotFound';
 import { Project } from '../Project';
 import { Header } from '../Header';
 import { Footer } from '../Footer';

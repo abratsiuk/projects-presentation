@@ -1,4 +1,4 @@
-import { Person } from '../Person/Person';
+import { Person } from '../Person';
 import { Projects } from '../Projects';
 import './Home.scss';
 

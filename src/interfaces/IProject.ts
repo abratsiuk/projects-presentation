@@ -13,6 +13,6 @@ export interface IProject {
   technologyAdditional: TTechnology[];
   comment: string;
   state: TProjectState;
-  pages: string;
+  demo: string;
   repo: string;
 }

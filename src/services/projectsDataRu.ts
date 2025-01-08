@@ -23,7 +23,7 @@ export const projectsDataRu: IProject[] = [
     technologyAdditional: [],
     comment: `Благодарность за макет и предложенный UI сайту TODOMVC. Код не использован, там он вообще на классах.`,
     state: 'inProgress',
-    pages: '#',
+    demo: '#',
     repo: 'https://github.com/abratsiuk/p5.react.ts.scss.todo',
   },
 
@@ -54,7 +54,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: `Уаздао — форма принятия и понимания радости в ковырянии с конфигами Vite и прочего. Машина УАЗ469 стала символом для автора: всегда едет, всегда чинится, но никогда не будет полностью отремонтирована.`,
     state: 'preparing',
-    pages: '#',
+    demo: '#',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
   },
   {
@@ -82,7 +82,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
     state: 'preparing',
-    pages: '#',
+    demo: '#',
     repo: 'https://github.com/abratsiuk/01.react.shop',
   },
   {
@@ -110,7 +110,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
     state: 'preparing',
-    pages: '#',
+    demo: '#',
     repo: 'https://github.com/abratsiuk/01.react.food',
   },
   {
@@ -137,7 +137,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
     state: 'preparing',
-    pages: '#',
+    demo: '#',
     repo: 'https://github.com/abratsiuk/01.react.movie',
   },
 ];
