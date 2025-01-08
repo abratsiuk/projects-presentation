@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './ProjectItemSmall.scss';
 import { Technology } from '../Technology';
 import { IProject } from '../../interfaces/IProject';
+import { State } from '../State';
 
 export const ProjectItemSmall: React.FC<IProject> = ({
   code,
@@ -32,6 +33,9 @@ export const ProjectItemSmall: React.FC<IProject> = ({
           {technology.map((item) => (
             <Technology key={item.name} {...item} />
           ))}
+        </div>
+        <div className="ProjectItemSmall__state">
+          <State state={state} />
         </div>
       </div>
     </div>

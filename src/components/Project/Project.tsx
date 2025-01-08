@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
-import { ProjectsShort } from '../ProjectsShort';
-import { ProjectItemLarge } from '../ProjectItemLarge';
+import { Projects } from '../Projects';
+import { ProjectItem } from '../ProjectItem';
 import { getProject } from '../../services';
 import { NotFound } from '../NotFound';
 import './Project.scss';
@@ -13,12 +13,8 @@ export const Project = () => {
 
   return (
     <div className="Project">
-      <ProjectsShort />
-      {project ? (
-        <ProjectItemLarge key={project.code} {...project} />
-      ) : (
-        <NotFound />
-      )}
+      <Projects type="small" />
+      {project ? <ProjectItem type="large" project={project} /> : <NotFound />}
     </div>
   );
 };

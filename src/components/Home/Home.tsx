@@ -5,8 +5,12 @@ import './Home.scss';
 export const Home = () => {
   return (
     <div className="Home">
-      <Person />
-      <Projects />
+      <div className="Home__person">
+        <Person />
+      </div>
+      <div className="Home__projects">
+        <Projects type="small" />
+      </div>
     </div>
   );
 };

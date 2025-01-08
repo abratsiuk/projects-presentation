@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './ProjectItemMedium.scss';
 import { Technology } from '../Technology';
 import { IProject } from '../../interfaces/IProject';
+import { State } from '../State';
 
 export const ProjectItemMedium: React.FC<IProject> = ({
   code,
@@ -34,7 +35,9 @@ export const ProjectItemMedium: React.FC<IProject> = ({
             <Technology key={item.name} {...item} />
           ))}
         </div>
-        <div className="ProjectItemMedium__state">state: {state}</div>
+        <div className="ProjectItemMedium__state">
+          <State state={state} />
+        </div>
         <div className="ProjectItemMedium__pages">pages: {pages}</div>
         <div className="ProjectItemMedium__pages">repo: {repo}</div>
       </div>
