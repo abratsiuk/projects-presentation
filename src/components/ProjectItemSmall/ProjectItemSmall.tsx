@@ -9,11 +9,8 @@ export const ProjectItemSmall: React.FC<IProject> = ({
   code,
   imageSmall,
   name,
-  shortDescription,
   technology,
   state,
-  pages,
-  repo,
 }) => {
   const navigate = useNavigate();
 
@@ -39,5 +36,3 @@ export const ProjectItemSmall: React.FC<IProject> = ({
     </div>
   );
 };
-
-/* */
