@@ -1,22 +1,14 @@
-import { NavLink } from 'react-router-dom';
+import './ProjectsShort.scss';
+import { getProjects } from '../../services/api';
+import { ProjectItemSmall } from '../ProjectItemSmall';
 
 export const ProjectsShort = () => {
+  const projects = getProjects();
   return (
-    <div className="ProjectsShort">
-      <ul className="menu">
-        <li className="menuItem">
-          <NavLink to="/home">home</NavLink>
-        </li>
-        <li className="menuItem">
-          <NavLink to="/card">card</NavLink>
-        </li>
-        <li className="menuItem">
-          <NavLink to="/books">books</NavLink>
-        </li>
-        <li className="menuItem">
-          <NavLink to="/something">something</NavLink>
-        </li>
-      </ul>
+    <div className="Projects">
+      {projects.map((project) => (
+        <ProjectItemSmall key={project.name} {...project} />
+      ))}
     </div>
   );
 };

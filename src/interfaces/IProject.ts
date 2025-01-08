@@ -2,8 +2,9 @@ import { TProjectState } from '../types/TProjectState';
 import { TTechnology } from '../types/TTechnology';
 
 export interface IProject {
-  imageMini: string;
-  imageMain: string;
+  code: string;
+  imageSmall: string;
+  imageMedium: string;
   images: string[];
   name: string;
   shortDescription: string;

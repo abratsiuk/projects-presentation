@@ -1,0 +1,9 @@
+.ProjectItemSmall {
+  &__image {
+    max-width: 50%;
+  }
+  &__data {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,21 @@
+.Person {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  &__photo {
+    width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px lightgrey;
+  }
+  &__name,
+  &__position,
+  &__skype,
+  &__email,
+  &__repo,
+  &__cv {
+    padding-top: 1rem;
+  }
+}

@@ -15,6 +15,7 @@ export const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/project/:code" element={<Project />} />
+          <Route path="/notfound" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

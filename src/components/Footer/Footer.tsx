@@ -2,7 +2,7 @@ import './Footer.scss';
 
 export const Footer = () => {
   return (
-    <div className="Footer">
+    <footer className="Footer">
       <div className="Footer__copyright">© 2025 abratsiuk</div>
       <div>
         <a
@@ -13,6 +13,6 @@ export const Footer = () => {
           repo
         </a>
       </div>
-    </div>
+    </footer>
   );
 };

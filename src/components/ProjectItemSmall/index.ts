@@ -1,0 +1,1 @@
+export { ProjectItemSmall } from './ProjectItemSmall';

@@ -1,0 +1,13 @@
+.ProjectItemLarge {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  padding: 2rem;
+  &__image {
+    max-width: 50%;
+    max-height: 200px;
+  }
+  &__data {
+    display: flex;
+    flex-direction: column;
+  }
+}

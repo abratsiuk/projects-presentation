@@ -1,0 +1,1 @@
+export { ProjectItemMedium } from './ProjectItemMedium';

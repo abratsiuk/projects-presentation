@@ -1,0 +1,1 @@
+1) small – medium – large в имена ProjectItem

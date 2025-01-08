@@ -1,1 +1,6 @@
-export { getProjects } from './api';
+export {
+  getProjects,
+  getProject,
+  getPerson,
+  getProjectStateImage,
+} from './api';
