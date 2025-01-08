@@ -7,7 +7,8 @@ import { projectStateImagesData } from './projectStateImagesData';
 
 export const getProjects = (): IProject[] => projectsDataRu;
 
-export const getProject = (code: string): IProject | undefined => {
+export const getProject = (code: string | undefined): IProject | undefined => {
+  if (!code) return projectsDataRu[0];
   return projectsDataRu.find((project) => project.code === code);
 };
 

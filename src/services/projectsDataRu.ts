@@ -2,7 +2,7 @@ import { IProject } from '../interfaces/IProject';
 
 export const projectsDataRu: IProject[] = [
   {
-    code: 'p5todo',
+    code: 'p5.todos',
     imageSmall: 'images/projects/p5.todos_small.png',
     imageMedium: 'images/projects/p5.todos_medium.png',
     images: [
@@ -10,7 +10,7 @@ export const projectsDataRu: IProject[] = [
       'images/projects/p5.todos_02.jpg',
       'images/projects/p5.todos_03.jpg',
     ],
-    name: 'p5.todo',
+    name: 'todos',
     shortDescription: 'React TypeScript Todo App',
     fullDescription:
       'Этот проект демонстрирует работу с задачами и списками на React и TypeScript.',
@@ -30,7 +30,7 @@ export const projectsDataRu: IProject[] = [
   },
 
   {
-    code: 'p4uazdao',
+    code: 'p4.uazdao',
     imageSmall: 'images/projects/p4.uazdao_small.png',
     imageMedium: 'images/projects/p4.uazdao_medium.png',
     images: [
@@ -40,7 +40,7 @@ export const projectsDataRu: IProject[] = [
       'images/projects/p4.uazdao_3.jpg',
       'images/projects/p4.uazdao_4.jpg',
     ],
-    name: 'p4.uazdao',
+    name: 'Уаздао',
     shortDescription:
       'Посвящен шуточной философии Уаздао в книгах Павла Иевлена',
     fullDescription:
@@ -61,7 +61,7 @@ export const projectsDataRu: IProject[] = [
     repo: 'https://github.com/abratsiuk/p4.uazdao',
   },
   {
-    code: '01shop',
+    code: '01.shop',
     imageSmall: 'images/projects/01.shop_small.png',
     imageMedium: 'images/projects/01.shop_medium.png',
     images: [
@@ -69,7 +69,7 @@ export const projectsDataRu: IProject[] = [
       'images/projects/01.shop_2.jpg',
       'images/projects/01.shop_3.jpg',
     ],
-    name: '01.react.shop',
+    name: 'React Shop',
     shortDescription: 'Учебный проект React Shop',
     fullDescription: 'Магазин на React.',
     technology: [
@@ -88,7 +88,7 @@ export const projectsDataRu: IProject[] = [
     repo: 'https://github.com/abratsiuk/01.react.shop',
   },
   {
-    code: '01food',
+    code: '01.food',
     imageSmall: 'images/projects/01.food_small.png',
     imageMedium: 'images/projects/01.food_medium.png',
     images: [
@@ -96,7 +96,7 @@ export const projectsDataRu: IProject[] = [
       'images/projects/01.food_2.jpg',
       'images/projects/01.food_3.jpg',
     ],
-    name: '01.react.food',
+    name: 'React Food',
     shortDescription: 'Учебный проект React Food',
     fullDescription: 'Приложение о еде на React',
     technology: [
@@ -115,7 +115,7 @@ export const projectsDataRu: IProject[] = [
     repo: 'https://github.com/abratsiuk/01.react.food',
   },
   {
-    code: '01movie',
+    code: 'React Movie',
     imageSmall: 'images/projects/01.movie_small.png',
     imageMedium: 'images/projects/01.movie_medium.png',
     images: [

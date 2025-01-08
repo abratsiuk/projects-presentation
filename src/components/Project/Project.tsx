@@ -7,7 +7,9 @@ import './Project.scss';
 
 export const Project = () => {
   const { code } = useParams();
-  const project = code ? getProject(code) : undefined;
+  console.log(code);
+  const project = getProject(code);
+  console.log(project);
 
   return (
     <div className="Project">

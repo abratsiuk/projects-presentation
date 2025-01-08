@@ -8,7 +8,10 @@ import './App.scss';
 
 export const App = () => {
   return (
-    <Router basename="/projects-presentation">
+    <Router
+      basename="/projects-presentation"
+      future={{ v7_relativeSplatPath: false }}
+    >
       <Header />
       <main className="App">
         <Routes>

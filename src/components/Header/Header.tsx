@@ -19,6 +19,16 @@ export const Header = () => {
             home
           </NavLink>
         </li>
+        <li className="Header__menuItem" key="projects">
+          <NavLink
+            to="/project/p5.todos"
+            className={({ isActive }) =>
+              isActive ? 'link link_active' : 'link'
+            }
+          >
+            projects
+          </NavLink>
+        </li>
       </ul>
     </header>
   );
