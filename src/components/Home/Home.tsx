@@ -9,7 +9,7 @@ export const Home = () => {
         <Person />
       </div>
       <div className="Home__projects">
-        <Projects type="small" />
+        <Projects type="medium" />
       </div>
     </div>
   );

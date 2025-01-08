@@ -30,9 +30,7 @@ export const ProjectItemSmall: React.FC<IProject> = ({
       <div className="ProjectItemSmall__data">
         <div className="ProjectItemSmall__name">{name}</div>
         <div className="ProjectItemSmall__technology">
-          {technology.map((item) => (
-            <Technology key={item.name} {...item} />
-          ))}
+          <Technology technology={technology} />
         </div>
         <div className="ProjectItemSmall__state">
           <State state={state} />

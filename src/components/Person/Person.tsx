@@ -15,27 +15,29 @@ export const Person = () => {
       <h2 className="Person__name">{person.name}</h2>
       <h3 className="Person__position">{person.position}</h3>
 
-      <div className="Person__skype">
-        <a href={`skype:${person.skype}?chat`} title="Open Skype">
-          <i className="fa-brands fa-skype"></i> {person.skype}
-        </a>
-      </div>
+      <div className="Person__contacts">
+        <div className="Person__skype">
+          <a href={`skype:${person.skype}?chat`} title="Open Skype">
+            <i className="fa-brands fa-skype"></i> {person.skype}
+          </a>
+        </div>
 
-      <div className="Person__email">
-        <a href={`mailto:${person.email}`} title="Send Email">
-          <i className="fa-regular fa-envelope"></i> {person.email}
-        </a>
-      </div>
+        <div className="Person__email">
+          <a href={`mailto:${person.email}`} title="Send Email">
+            <i className="fa-regular fa-envelope"></i> {person.email}
+          </a>
+        </div>
 
-      <div className="Person__repo">
-        <a
-          href={person.repo}
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Open GitHub Repository"
-        >
-          <i className="fa-brands fa-github"></i> repo
-        </a>
+        <div className="Person__repo">
+          <a
+            href={person.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Open GitHub Repository"
+          >
+            <i className="fa-brands fa-github"></i> repo
+          </a>
+        </div>
       </div>
 
       <div className="Person__cv">

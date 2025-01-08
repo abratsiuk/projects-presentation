@@ -1,6 +1,10 @@
 .ProjectItemSmall {
+  max-width: 500px;
+  max-height: 250px;
+  display: flex;
   &__image {
-    max-width: 50%;
+    width: 200px;
+    height: 140px;
   }
   &__data {
     display: flex;

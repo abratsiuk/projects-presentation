@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectItem.scss';
 import { IProjectItemProps } from './IProjectItemProps';
-import { Technology } from '../Technology';
+import { Technology } from '../TechnologyItem';
 
 export const ProjectItem: React.FC<IProjectItemProps> = ({
   imageMedium,

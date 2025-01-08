@@ -16,13 +16,11 @@ export const projectsDataRu: IProject[] = [
       'Этот проект демонстрирует работу с задачами и списками на React и TypeScript.',
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
-      { image: 'images/technology/ts32.png', name: 'TS' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
       { image: 'images/technology/sass32.png', name: 'Sass' },
-    ],
-    technologyAdditional: [
-      { image: 'images/technology/vite32.png', name: 'Vite' },
       { image: 'images/technology/bem32.png', name: 'BEM' },
     ],
+    technologyAdditional: [],
     comment: `Благодарность за макет и предложенный UI сайту TODOMVC. Код не использован, там он вообще на классах.`,
     state: 'inProgress',
     pages: '#',
@@ -42,18 +40,17 @@ export const projectsDataRu: IProject[] = [
     ],
     name: 'Уаздао',
     shortDescription:
-      'Посвящен шуточной философии Уаздао в книгах Павла Иевлена',
+      'Посвящен шуточной философии Уаздао в книгах Павла Иевлева',
     fullDescription:
       'Проект исследует философию настройки программных систем, основанной на метафоре ремонта машины УАЗ469.',
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
-      { image: 'images/technology/ts32.png', name: 'TS' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
       { image: 'images/technology/sass32.png', name: 'Sass' },
+      { image: 'images/technology/bem32.png', name: 'BEM' },
     ],
     technologyAdditional: [
-      { image: 'images/technology/vite32.png', name: 'Vite' },
       { image: 'images/technology/react-router.svg', name: 'React Router' },
-      { image: 'images/technology/bem32.png', name: 'BEM' },
     ],
     comment: `Уаздао — форма принятия и понимания радости в ковырянии с конфигами Vite и прочего. Машина УАЗ469 стала символом для автора: всегда едет, всегда чинится, но никогда не будет полностью отремонтирована.`,
     state: 'preparing',
@@ -74,14 +71,15 @@ export const projectsDataRu: IProject[] = [
     fullDescription: 'Магазин на React.',
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
-      { image: 'images/technology/js32.png', name: 'JS' },
+      { image: 'images/technology/js32.png', name: 'JavaScript' },
+    ],
+    technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
       {
         image: 'images/technology/materialize.svg',
         name: 'css: materializecss',
       },
     ],
-    technologyAdditional: [],
     comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
     state: 'preparing',
     pages: '#',
@@ -101,21 +99,22 @@ export const projectsDataRu: IProject[] = [
     fullDescription: 'Приложение о еде на React',
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
-      { image: 'images/technology/js32.png', name: 'JS' },
+      { image: 'images/technology/js32.png', name: 'JavaScript' },
+    ],
+    technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
       {
         image: 'images/technology/materialize.svg',
         name: 'css: materializecss',
       },
     ],
-    technologyAdditional: [],
     comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
     state: 'preparing',
     pages: '#',
     repo: 'https://github.com/abratsiuk/01.react.food',
   },
   {
-    code: 'React Movie',
+    code: '01.movie',
     imageSmall: 'images/projects/01.movie_small.png',
     imageMedium: 'images/projects/01.movie_medium.png',
     images: [
@@ -123,18 +122,19 @@ export const projectsDataRu: IProject[] = [
       'images/projects/01.movie_2.jpg',
       'images/projects/01.movie_3.jpg',
     ],
-    name: '01.react.movie',
+    name: 'React Movie',
     shortDescription: 'Учебный проект React Movie',
     fullDescription: 'Приложение о фильмах на React',
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
-      { image: 'images/technology/js32.png', name: 'JS' },
+      { image: 'images/technology/js32.png', name: 'JavaScript' },
+    ],
+    technologyAdditional: [
       {
         image: 'images/technology/materialize.svg',
         name: 'css: materializecss',
       },
     ],
-    technologyAdditional: [],
     comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
     state: 'preparing',
     pages: '#',

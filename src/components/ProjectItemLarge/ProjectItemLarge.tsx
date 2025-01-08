@@ -25,9 +25,7 @@ export const ProjectItemLarge: React.FC<IProject> = ({
         <div className="ProjectItemLarge__name">{name}</div>
         <div className="ProjectItemLarge__description">{shortDescription}</div>
         <div className="ProjectItemLarge__technology">
-          {technology.map((item) => (
-            <Technology key={item.name} {...item} />
-          ))}
+          <Technology technology={technology} />
         </div>
         <div className="ProjectItemLarge__state">
           <State state={state} />

@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import './ProjectItemMedium.scss';
 import { Technology } from '../Technology';
 import { IProject } from '../../interfaces/IProject';
-import { State } from '../State';
 
 export const ProjectItemMedium: React.FC<IProject> = ({
   code,
@@ -11,9 +10,7 @@ export const ProjectItemMedium: React.FC<IProject> = ({
   name,
   shortDescription,
   technology,
-  state,
-  pages,
-  repo,
+  technologyAdditional,
 }) => {
   const navigate = useNavigate();
 
@@ -27,19 +24,16 @@ export const ProjectItemMedium: React.FC<IProject> = ({
         src={`${import.meta.env.BASE_URL}${imageMedium}`}
         alt="project image"
       />
+
       <div className="ProjectItemMedium__data">
         <div className="ProjectItemMedium__name">{name}</div>
         <div className="ProjectItemMedium__description">{shortDescription}</div>
         <div className="ProjectItemMedium__technology">
-          {technology.map((item) => (
-            <Technology key={item.name} {...item} />
-          ))}
+          <Technology technology={technology} />
         </div>
-        <div className="ProjectItemMedium__state">
-          <State state={state} />
+        <div className="ProjectItemMedium__technologyAdditional">
+          <Technology technology={technologyAdditional} />
         </div>
-        <div className="ProjectItemMedium__pages">pages: {pages}</div>
-        <div className="ProjectItemMedium__pages">repo: {repo}</div>
       </div>
     </div>
   );
