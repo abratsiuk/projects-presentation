@@ -6,15 +6,16 @@ export const projectsDataRu: IProject[] = [
     imageSmall: 'images/projects/presentation_small.png',
     imageMedium: 'images/projects/presentation_medium.png',
     images: ['images/projects/presentation_1.png'],
-    name: 'Презентация проектов',
+    nameShort: 'презентация',
+    name: 'презентация проектов',
     shortDescription:
       'Список проектов с описанием и использованными технологиям, с ссылками на демо и репозиторий.',
     fullDescription: '',
     technology: [
-      { image: 'images/technology/react32.png', name: 'React' },
-      { image: 'images/technology/ts32.png', name: 'TypeScript' },
-      { image: 'images/technology/sass32.png', name: 'Sass' },
-      { image: 'images/technology/bem32.png', name: 'BEM' },
+      { image: 'images/technology/react48.png', name: 'React' },
+      { image: 'images/technology/ts48.png', name: 'TypeScript' },
+      { image: 'images/technology/sass48.png', name: 'Sass' },
+      { image: 'images/technology/bem48.png', name: 'BEM' },
     ],
     technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
@@ -33,6 +34,7 @@ export const projectsDataRu: IProject[] = [
       'images/projects/p5.todos_02.jpg',
       'images/projects/p5.todos_03.jpg',
     ],
+    nameShort: 'todos',
     name: 'todos',
     shortDescription: 'React TypeScript Todo App',
     fullDescription:
@@ -61,7 +63,8 @@ export const projectsDataRu: IProject[] = [
       'images/projects/p4.uazdao_3.jpg',
       'images/projects/p4.uazdao_4.jpg',
     ],
-    name: 'Уаздао',
+    nameShort: 'книжка',
+    name: 'книжка',
     shortDescription:
       'Посвящен шуточной философии Уаздао в книгах Павла Иевлева',
     fullDescription:
@@ -89,7 +92,8 @@ export const projectsDataRu: IProject[] = [
       'images/projects/01.shop_2.jpg',
       'images/projects/01.shop_3.jpg',
     ],
-    name: 'React Shop',
+    nameShort: 'shop',
+    name: 'react shop',
     shortDescription: 'Учебный проект React Shop',
     fullDescription: 'Магазин на React.',
     technology: [
@@ -117,7 +121,8 @@ export const projectsDataRu: IProject[] = [
       'images/projects/01.food_2.jpg',
       'images/projects/01.food_3.jpg',
     ],
-    name: 'React Food',
+    nameShort: 'food',
+    name: 'react food',
     shortDescription: 'Учебный проект React Food',
     fullDescription: 'Приложение о еде на React',
     technology: [
@@ -145,7 +150,8 @@ export const projectsDataRu: IProject[] = [
       'images/projects/01.movie_2.jpg',
       'images/projects/01.movie_3.jpg',
     ],
-    name: 'React Movie',
+    nameShort: 'movie',
+    name: 'react movie',
     shortDescription: 'Учебный проект React Movie',
     fullDescription: 'Приложение о фильмах на React',
     technology: [

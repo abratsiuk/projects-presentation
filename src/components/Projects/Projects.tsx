@@ -8,9 +8,11 @@ export const Projects: React.FC<IProjectsProps> = ({ type }) => {
   const projects = getProjects();
   return (
     <div className="Projects">
-      {projects.map((project) => (
-        <ProjectItem key={project.code} type={type} project={project} />
-      ))}
+      <div className="Projects__items">
+        {projects.map((project) => (
+          <ProjectItem key={project.code} type={type} project={project} />
+        ))}
+      </div>
     </div>
   );
 };

@@ -1,13 +1,39 @@
 .ProjectItemSmall {
-  max-width: 500px;
-  max-height: 250px;
-  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  transition: $box-shadow_transition;
+  &:hover {
+    box-shadow: -2px 2px 2px 2px lightgray;
+  }
+  &_active {
+    box-shadow: -2px 2px 2px 2px $ProjectItemMiddle__name-color;
+    &:hover {
+      box-shadow: -2px 2px 2px 2px $Header-color;
+    }
+  }
   &__image {
     width: 200px;
     height: 140px;
+    transition: $box-shadow_transition;
+    padding-right: 1rem;
+  }
+  &:hover &__image {
+    box-shadow: -1px 1px 1px 1px lightgray;
   }
   &__data {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 4rem;
+  }
+  &__name {
+    font-family: 'Merriweather', serif;
+    font-size: 2.4rem;
+    color: $ProjectItemMiddle__name-color;
+    transition: $font-size-transition;
+  }
+  &:hover &__name {
+    font-size: 2.2rem;
   }
 }

@@ -7,6 +7,7 @@ export interface IProject {
   imageMedium: string;
   images: string[];
   name: string;
+  nameShort: string;
   shortDescription: string;
   fullDescription: string;
   technology: TTechnology[];

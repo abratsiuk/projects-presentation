@@ -220,3 +220,7 @@ export default defineConfig({
 ======================
 ico files
 https://icon-icons.com/search/icons/?filtro=car&page=3
+
+edit pictures
+https://www.photopea.com/
+

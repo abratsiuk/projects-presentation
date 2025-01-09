@@ -1,5 +1,8 @@
 .Projects {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  padding: 2rem;
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
