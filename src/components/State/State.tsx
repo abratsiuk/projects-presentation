@@ -11,6 +11,7 @@ export const State: React.FC<IStateProps> = ({ state }) => {
         src={`${import.meta.env.BASE_URL}${getProjectStateImage(state)}`}
         alt="project state"
       />
+      <span className="State__name">{state}</span>
     </div>
   );
 };
