@@ -12,6 +12,10 @@ export const projectsDataRu: IProject[] = [
     fullDescription: [
       'Список проектов содержит описание проекта, перечень использованных технологий, ссылки на демонстрационную версию и на репозиторий проекта в GitHub.',
       'Демонстрационные версии сделаны или в GitHub Actions или в GitHub Pages.',
+      'Состояние проектов:',
+      'finished - завершен и опубликован,',
+      'inProgress - завершен, продолжается улучшение или применение каких-то новых технологий',
+      'preparing - завершен, подготавливается публикация и исправляются ошибки',
     ],
     technology: [
       { image: 'images/technology/react48.png', name: 'React' },
@@ -51,7 +55,7 @@ export const projectsDataRu: IProject[] = [
     technologyAdditional: [],
     comment: 'Благодарен за макет и предложенный UI сайту TodoMVC.',
     state: 'inProgress',
-    demo: '#',
+    demo: '',
     repo: 'https://github.com/abratsiuk/p5.react.ts.scss.todo',
   },
 
@@ -89,7 +93,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: '',
     state: 'preparing',
-    demo: '#',
+    demo: '',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
   },
   {
@@ -118,7 +122,7 @@ export const projectsDataRu: IProject[] = [
     comment:
       'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
     state: 'preparing',
-    demo: '#',
+    demo: 'https://abratsiuk.github.io/01.react.shop/',
     repo: 'https://github.com/abratsiuk/01.react.shop',
   },
   {
@@ -151,7 +155,7 @@ export const projectsDataRu: IProject[] = [
     comment:
       'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
     state: 'preparing',
-    demo: '#',
+    demo: 'https://abratsiuk.github.io/01.react.food/',
     repo: 'https://github.com/abratsiuk/01.react.food',
   },
   {
@@ -183,7 +187,7 @@ export const projectsDataRu: IProject[] = [
     comment:
       'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
     state: 'preparing',
-    demo: '#',
+    demo: 'https://abratsiuk.github.io/01.react.movie/',
     repo: 'https://github.com/abratsiuk/01.react.movie',
   },
 ];

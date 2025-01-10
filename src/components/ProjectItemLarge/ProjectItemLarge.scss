@@ -10,7 +10,7 @@
   &__head {
     width: 100%;
     display: grid;
-    grid-template-columns: 3rem 1fr 7rem 7rem;
+    grid-template-columns: 3rem 1fr 25rem 7rem;
     grid-template-rows: 3rem;
     gap: 2rem;
   }
@@ -30,6 +30,10 @@
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     font-size: 2rem;
+    text-align: right;
+    &_disabled {
+      color: gray;
+    }
   }
   &__repo {
     grid-column: 4 / 5;

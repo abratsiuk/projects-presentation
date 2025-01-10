@@ -26,11 +26,23 @@ export const ProjectItemLarge: React.FC<IProject> = ({
 
         <div className="ProjectItemLarge__name">{name}</div>
 
-        <div className="ProjectItemLarge__demo">
-          <a href={demo} title="demo" target="_blank" rel="noopener noreferrer">
-            demo
-          </a>
-        </div>
+        {demo ? (
+          <div className="ProjectItemLarge__demo">
+            <a
+              href={demo}
+              title="demo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              demo
+            </a>
+          </div>
+        ) : (
+          <div className="ProjectItemLarge__demo ProjectItemLarge__demo_disabled">
+            demo (скоро)
+          </div>
+        )}
+
         <div className="ProjectItemLarge__repo">
           <a href={repo} title="repo" target="_blank" rel="noopener noreferrer">
             repo
