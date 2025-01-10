@@ -1,62 +1,69 @@
 .ProjectItemLarge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 2rem;
   padding: 2rem 10rem;
+
   &__head {
-    display: flex;
-    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3rem 1fr 7rem 7rem;
+    grid-template-rows: 3rem;
     gap: 2rem;
-    padding-bottom: 2rem;
+  }
+  &__state {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
   &__name {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
     font-family: 'Merriweather', serif;
     font-size: 3rem;
     color: $ProjectItemMiddle__name-color;
     transition: $font-size-transition;
   }
-  &__description,
-  &__demo,
-  &__repo {
-    padding-top: 1rem;
+  &__demo {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
     font-size: 2rem;
   }
-
-  &__images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  &__repo {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    font-size: 2rem;
   }
+  &__description {
+    grid-column: 1 / span 4;
+    grid-row: 2 / 2;
+    font-size: 2rem;
+    max-width: $text-max-width;
+    text-indent: $text-indent;
+  }
+
   &__image {
     width: 900px;
-    height: 600px;
     box-shadow: 1px 1px 2px 2px $Header-color;
-  }
-  &__imageItem {
-    margin-top: 5rem;
-    max-width: 900px;
-    box-shadow: 1px 1px 2px 2px $link_hover-color;
+    &_additional {
+      box-shadow: 1px 1px 2px 2px $link_hover-color;
+    }
   }
 
-  &__data {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 2.5rem;
-    line-height: 3rem;
-    max-width: 60rem;
-  }
-  &__name {
-    font-family: 'Merriweather', serif;
-    font-size: 3rem;
-    color: $ProjectItemMiddle__name-color;
-    transition: $font-size-transition;
-  }
-
-  &__description {
+  &__fullDescription,
+  &__comment {
     font-size: 2rem;
+    max-width: $text-max-width;
+    text-indent: $text-indent;
   }
-
-  &__technologyAdditional {
+  &__technology {
     transform: scale(0.8);
     transform-origin: left center;
+    padding-left: 2rem;
+    &-additional {
+      transform: scale(0.8);
+    }
   }
 }

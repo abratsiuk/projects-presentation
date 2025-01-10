@@ -5,12 +5,14 @@ export const projectsDataRu: IProject[] = [
     code: 'presentation',
     imageSmall: 'images/projects/presentation_small.png',
     imageMedium: 'images/projects/presentation_medium.png',
-    images: ['images/projects/presentation_1.png'],
+    images: [],
     nameShort: 'презентация',
     name: 'презентация проектов',
-    shortDescription:
-      'Список проектов с описанием и использованными технологиям, с ссылками на демо и репозиторий.',
-    fullDescription: '',
+    shortDescription: 'Список проектов для презентации.',
+    fullDescription: [
+      'Список проектов содержит описание проекта, перечень использованных технологий, ссылки на демонстрационную версию и на репозиторий проекта в GitHub.',
+      'Демонстрационные версии сделаны или в GitHub Actions или в GitHub Pages.',
+    ],
     technology: [
       { image: 'images/technology/react48.png', name: 'React' },
       { image: 'images/technology/ts48.png', name: 'TypeScript' },
@@ -20,7 +22,7 @@ export const projectsDataRu: IProject[] = [
     technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
     ],
-    comment: ``,
+    comment: '',
     state: 'inProgress',
     demo: 'https://abratsiuk.github.io/projects-presentation/',
     repo: 'https://github.com/abratsiuk/projects-presentation',
@@ -37,8 +39,10 @@ export const projectsDataRu: IProject[] = [
     nameShort: 'todos',
     name: 'todos',
     shortDescription: 'React TypeScript Todo App',
-    fullDescription:
-      'Этот проект демонстрирует работу с задачами и списками на React и TypeScript.',
+    fullDescription: [
+      'Todo приложение на React и TypeScript.',
+      'Оптимизировано для уменьшения количества ререндеров.',
+    ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/ts32.png', name: 'TypeScript' },
@@ -46,7 +50,7 @@ export const projectsDataRu: IProject[] = [
       { image: 'images/technology/bem32.png', name: 'BEM' },
     ],
     technologyAdditional: [],
-    comment: `Благодарность за макет и предложенный UI сайту TODOMVC. Код не использован, там он вообще на классах.`,
+    comment: 'Благодарен за макет и предложенный UI сайту TODOMVC.',
     state: 'inProgress',
     demo: '#',
     repo: 'https://github.com/abratsiuk/p5.react.ts.scss.todo',
@@ -67,8 +71,10 @@ export const projectsDataRu: IProject[] = [
     name: 'книжка',
     shortDescription:
       'Посвящен шуточной философии Уаздао в книгах Павла Иевлева',
-    fullDescription:
-      'Проект исследует философию настройки программных систем, основанной на метафоре ремонта машины УАЗ469.',
+    fullDescription: [
+      'Посвящен шуточной философии Уаздао в книгах Павла Иевлева. Уаздао это форма принятия а затем и понимания в чем радость в ковырянии с конфигами используемых Vite и прочего т.п.: cам процесс настройки - это своего рода медитация.',
+      'Автор книги, Павел Иевлев, писатель-фантаст и редактор сайта автолюбителей. Машина УАЗ469 послужила автору символом процесса медитации. Как он пишет, эта машина всегда едет, всегда ломается, ее можно всегда починить, но она никогда не может быть отремонтировано до конца. Эта книга одна из книг фантастической серии о множественных Вселенных.',
+    ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/ts32.png', name: 'TypeScript' },
@@ -78,7 +84,7 @@ export const projectsDataRu: IProject[] = [
     technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
     ],
-    comment: `Уаздао — форма принятия и понимания радости в ковырянии с конфигами Vite и прочего. Машина УАЗ469 стала символом для автора: всегда едет, всегда чинится, но никогда не будет полностью отремонтирована.`,
+    comment: '',
     state: 'preparing',
     demo: '#',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
@@ -95,7 +101,10 @@ export const projectsDataRu: IProject[] = [
     nameShort: 'shop',
     name: 'react shop',
     shortDescription: 'Учебный проект React Shop',
-    fullDescription: 'Магазин на React.',
+    fullDescription: [
+      'Простейший пример магазина на React.',
+      'CSS организован с использованием библиотеки materializecss.',
+    ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/js32.png', name: 'JavaScript' },
@@ -107,7 +116,8 @@ export const projectsDataRu: IProject[] = [
         name: 'css: materializecss',
       },
     ],
-    comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
+    comment:
+      'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
     state: 'preparing',
     demo: '#',
     repo: 'https://github.com/abratsiuk/01.react.shop',
@@ -124,7 +134,10 @@ export const projectsDataRu: IProject[] = [
     nameShort: 'food',
     name: 'react food',
     shortDescription: 'Учебный проект React Food',
-    fullDescription: 'Приложение о еде на React',
+    fullDescription: [
+      'Простенькое приложение о еде на React',
+      'CSS организован с использованием библиотеки materializecss.',
+    ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/js32.png', name: 'JavaScript' },
@@ -136,7 +149,8 @@ export const projectsDataRu: IProject[] = [
         name: 'css: materializecss',
       },
     ],
-    comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
+    comment:
+      'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
     state: 'preparing',
     demo: '#',
     repo: 'https://github.com/abratsiuk/01.react.food',
@@ -153,7 +167,10 @@ export const projectsDataRu: IProject[] = [
     nameShort: 'movie',
     name: 'react movie',
     shortDescription: 'Учебный проект React Movie',
-    fullDescription: 'Приложение о фильмах на React',
+    fullDescription: [
+      'Маленькое приложение о фильмах на React',
+      'CSS организован с использованием библиотеки materializecss.',
+    ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/js32.png', name: 'JavaScript' },
@@ -164,7 +181,8 @@ export const projectsDataRu: IProject[] = [
         name: 'css: materializecss',
       },
     ],
-    comment: `Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих. +3 проекта в портфолио".`,
+    comment:
+      'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
     state: 'preparing',
     demo: '#',
     repo: 'https://github.com/abratsiuk/01.react.movie',

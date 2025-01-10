@@ -9,7 +9,7 @@ export interface IProject {
   name: string;
   nameShort: string;
   shortDescription: string;
-  fullDescription: string;
+  fullDescription: string[];
   technology: TTechnology[];
   technologyAdditional: TTechnology[];
   comment: string;

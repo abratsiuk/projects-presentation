@@ -9,7 +9,7 @@ export const ProjectItemLarge: React.FC<IProject> = ({
   images = [],
   name,
   shortDescription,
-  fullDescription,
+  fullDescription = [],
   technology,
   technologyAdditional,
   comment,
@@ -26,8 +26,6 @@ export const ProjectItemLarge: React.FC<IProject> = ({
 
         <div className="ProjectItemLarge__name">{name}</div>
 
-        <div className="ProjectItemLarge__description">{shortDescription}</div>
-
         <div className="ProjectItemLarge__demo">
           <a href={demo} title="demo" target="_blank" rel="noopener noreferrer">
             demo
@@ -38,6 +36,8 @@ export const ProjectItemLarge: React.FC<IProject> = ({
             repo
           </a>
         </div>
+
+        <div className="ProjectItemLarge__description">{shortDescription}</div>
       </div>
 
       <img
@@ -46,26 +46,28 @@ export const ProjectItemLarge: React.FC<IProject> = ({
         alt="project image"
       />
 
-      <div className="ProjectItemLarge__description">{fullDescription}</div>
+      {fullDescription.length
+        ? fullDescription.map((item) => (
+            <div className="ProjectItemLarge__fullDescription">{item}</div>
+          ))
+        : null}
 
-      <div className="ProjectItemLarge__description">{comment}</div>
+      {images.length
+        ? images.map((image) => (
+            <img
+              className="ProjectItemLarge__image ProjectItemLarge__image_additional"
+              src={`${import.meta.env.BASE_URL}${image}`}
+              alt="project image"
+            />
+          ))
+        : null}
 
-      <div className="ProjectItemLarge__images">
-        {images.length
-          ? images.map((image) => (
-              <img
-                className="ProjectItemLarge__imageItem"
-                src={`${import.meta.env.BASE_URL}${image}`}
-                alt="project image"
-              />
-            ))
-          : null}
-      </div>
+      <div className="ProjectItemLarge__comment">{comment}</div>
 
       <div className="ProjectItemLarge__technology">
         <Technology technology={technology} />
       </div>
-      <div className="ProjectItemLarge__technologyAdditional">
+      <div className="ProjectItemLarge__technology ProjectItemLarge__technology-additional">
         <Technology technology={technologyAdditional} />
       </div>
     </div>
