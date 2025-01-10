@@ -30,6 +30,14 @@ export const projectsDataRu: IProject[] = [
     state: 'inProgress',
     demo: 'https://abratsiuk.github.io/projects-presentation/',
     repo: 'https://github.com/abratsiuk/projects-presentation',
+    technologyDescription: [
+      'Техническое описание:',
+      '- используется React и Typescript',
+      '- статическое приложение, от действий пользователя ничего не меняется, поэтому хуки не используются',
+      '- React Router 6',
+      '- Sass и БЕМ методология для стилей',
+      '- cборка на Vite и используется yarn',
+    ],
   },
   {
     code: 'p5.todos',
@@ -57,6 +65,7 @@ export const projectsDataRu: IProject[] = [
     state: 'inProgress',
     demo: '',
     repo: 'https://github.com/abratsiuk/p5.react.ts.scss.todo',
+    technologyDescription: [],
   },
 
   {
@@ -95,6 +104,7 @@ export const projectsDataRu: IProject[] = [
     state: 'preparing',
     demo: '',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
+    technologyDescription: [],
   },
   {
     code: '01.shop',
@@ -124,6 +134,7 @@ export const projectsDataRu: IProject[] = [
     state: 'preparing',
     demo: 'https://abratsiuk.github.io/01.react.shop/',
     repo: 'https://github.com/abratsiuk/01.react.shop',
+    technologyDescription: [],
   },
   {
     code: '01.food',
@@ -157,6 +168,7 @@ export const projectsDataRu: IProject[] = [
     state: 'preparing',
     demo: 'https://abratsiuk.github.io/01.react.food/',
     repo: 'https://github.com/abratsiuk/01.react.food',
+    technologyDescription: [],
   },
   {
     code: '01.movie',
@@ -189,5 +201,6 @@ export const projectsDataRu: IProject[] = [
     state: 'preparing',
     demo: 'https://abratsiuk.github.io/01.react.movie/',
     repo: 'https://github.com/abratsiuk/01.react.movie',
+    technologyDescription: [''],
   },
 ];

@@ -57,11 +57,16 @@
   }
 
   &__fullDescription,
+  &__technologyDescription,
   &__comment {
     font-size: 2rem;
     max-width: $text-max-width;
     text-indent: $text-indent;
+    &_first {
+      font-weight: 700;
+    }
   }
+
   &__technology {
     transform: scale(0.8);
     transform-origin: left center;

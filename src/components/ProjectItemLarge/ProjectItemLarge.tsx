@@ -5,17 +5,18 @@ import { IProject } from '../../interfaces/IProject';
 import { State } from '../State';
 
 export const ProjectItemLarge: React.FC<IProject> = ({
+  name,
+  state,
+  demo,
+  repo,
   imageMedium,
   images = [],
-  name,
   shortDescription,
   fullDescription = [],
   technology,
   technologyAdditional,
   comment,
-  state,
-  demo,
-  repo,
+  technologyDescription = [],
 }) => {
   return (
     <div className="ProjectItemLarge">
@@ -75,6 +76,16 @@ export const ProjectItemLarge: React.FC<IProject> = ({
         : null}
 
       <div className="ProjectItemLarge__comment">{comment}</div>
+
+      {technologyDescription.length
+        ? technologyDescription.map((item, index) => (
+            <div
+              className={`ProjectItemLarge__technologyDescription ${index === 0 ? 'ProjectItemLarge__technologyDescription_first' : ''}`}
+            >
+              {item}
+            </div>
+          ))
+        : null}
 
       <div className="ProjectItemLarge__technology">
         <Technology technology={technology} />
