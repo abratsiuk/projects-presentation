@@ -1,5 +1,6 @@
 .ProjectItemSmall {
-  padding: 10px;
+  position: relative;
+  padding: 1rem;
   cursor: pointer;
   box-shadow: 1px 1px 1px 1px lightgray;
   transition: $box-shadow_transition;
@@ -12,6 +13,12 @@
       box-shadow: -2px 2px 2px 2px $Header-color;
     }
   }
+  &__state {
+    position: absolute !important;
+    left: 0.5rem;
+    top: 50%;
+  }
+
   &__image {
     width: 200px;
     height: 140px;
@@ -32,8 +39,5 @@
     font-size: 2.4rem;
     color: $ProjectItemMiddle__name-color;
     transition: $font-size-transition;
-  }
-  &:hover &__name {
-    font-size: 2.2rem;
   }
 }

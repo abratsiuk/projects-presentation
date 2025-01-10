@@ -4,9 +4,11 @@ import { useNavigate } from 'react-router-dom';
 import './ProjectItemSmall.scss';
 import { Technology } from '../Technology';
 import { IProject } from '../../interfaces/IProject';
+import { State } from '../State';
 
 export const ProjectItemSmall: React.FC<IProject> = ({
   code,
+  state,
   imageSmall,
   nameShort,
   technology,
@@ -19,6 +21,8 @@ export const ProjectItemSmall: React.FC<IProject> = ({
       className={`ProjectItemSmall ${code === codeParam ? 'ProjectItemSmall_active' : ''}`}
       onClick={() => navigate(`/project/${code}`)}
     >
+      <State parentClassName="ProjectItemSmall__state" state={state} />
+
       <div className="ProjectItemSmall__name">{nameShort}</div>
 
       <div className="ProjectItemSmall__data">

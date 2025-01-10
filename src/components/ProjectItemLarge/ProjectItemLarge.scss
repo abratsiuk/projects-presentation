@@ -63,6 +63,9 @@
     font-size: 2rem;
     max-width: $text-max-width;
     text-indent: $text-indent;
+  }
+
+  &__technologyDescription {
     &_first {
       font-weight: 700;
     }
