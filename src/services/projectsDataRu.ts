@@ -102,7 +102,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: '',
     state: 'preparing',
-    demo: '',
+    demo: 'https://abratsiuk.github.io/p4.uazdao',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
     technologyDescription: [],
   },

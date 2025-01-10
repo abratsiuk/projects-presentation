@@ -4,7 +4,7 @@ import { Technology } from '../Technology';
 import { IProject } from '../../interfaces/IProject';
 import { State } from '../State';
 import { Descriptions } from '../Descriptions';
-import { ExternalLink } from '../LinkExternal/ExternalLink';
+import { ExternalLink } from '../ExternalLink';
 
 export const ProjectItemLarge: React.FC<IProject> = ({
   name,
