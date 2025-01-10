@@ -3,6 +3,8 @@ import './ProjectItemLarge.scss';
 import { Technology } from '../Technology';
 import { IProject } from '../../interfaces/IProject';
 import { State } from '../State';
+import { Descriptions } from '../Descriptions';
+import { ExternalLink } from '../LinkExternal/ExternalLink';
 
 export const ProjectItemLarge: React.FC<IProject> = ({
   name,
@@ -21,36 +23,27 @@ export const ProjectItemLarge: React.FC<IProject> = ({
   return (
     <div className="ProjectItemLarge">
       <div className="ProjectItemLarge__head">
-        <div className="ProjectItemLarge__state">
-          <State state={state} />
-        </div>
+        <State parentClassName="ProjectItemLarge__state" state={state} />
 
         <div className="ProjectItemLarge__name">{name}</div>
 
-        {demo ? (
-          <div className="ProjectItemLarge__demo">
-            <a
-              href={demo}
-              title="demo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              demo
-            </a>
-          </div>
-        ) : (
-          <div className="ProjectItemLarge__demo ProjectItemLarge__demo_disabled">
-            demo (скоро)
-          </div>
-        )}
+        <ExternalLink
+          parentClassName="ProjectItemLarge__demo"
+          href={demo}
+          text="demo"
+          parentClassName_disabled="ProjectItemLarge__demo_disabled"
+          text_disabled="demo (скоро)"
+        />
 
-        <div className="ProjectItemLarge__repo">
-          <a href={repo} title="repo" target="_blank" rel="noopener noreferrer">
-            repo
-          </a>
+        <ExternalLink
+          parentClassName="ProjectItemLarge__repo"
+          href={repo}
+          text="repo"
+        />
+
+        <div className="ProjectItemLarge__shortDescription">
+          {shortDescription}
         </div>
-
-        <div className="ProjectItemLarge__description">{shortDescription}</div>
       </div>
 
       <img
@@ -59,11 +52,11 @@ export const ProjectItemLarge: React.FC<IProject> = ({
         alt="project image"
       />
 
-      {fullDescription.length
-        ? fullDescription.map((item) => (
-            <div className="ProjectItemLarge__fullDescription">{item}</div>
-          ))
-        : null}
+      <Descriptions
+        parentClassName="ProjectItemLarge__fullDescription"
+        parentClassName_first="ProjectItemLarge__fullDescription_first"
+        texts={fullDescription}
+      />
 
       {images.length
         ? images.map((image) => (
@@ -77,15 +70,11 @@ export const ProjectItemLarge: React.FC<IProject> = ({
 
       <div className="ProjectItemLarge__comment">{comment}</div>
 
-      {technologyDescription.length
-        ? technologyDescription.map((item, index) => (
-            <div
-              className={`ProjectItemLarge__technologyDescription ${index === 0 ? 'ProjectItemLarge__technologyDescription_first' : ''}`}
-            >
-              {item}
-            </div>
-          ))
-        : null}
+      <Descriptions
+        parentClassName="ProjectItemLarge__technologyDescription"
+        parentClassName_first="ProjectItemLarge__technologyDescription_first"
+        texts={technologyDescription}
+      />
 
       <div className="ProjectItemLarge__technology">
         <Technology technology={technology} />
