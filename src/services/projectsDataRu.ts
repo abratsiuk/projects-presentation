@@ -27,7 +27,7 @@ export const projectsDataRu: IProject[] = [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
     ],
     comment: '',
-    state: 'inProgress',
+    state: 'finished',
     demo: 'https://abratsiuk.github.io/projects-presentation/',
     repo: 'https://github.com/abratsiuk/projects-presentation',
     technologyDescription: [
@@ -63,9 +63,12 @@ export const projectsDataRu: IProject[] = [
     technologyAdditional: [],
     comment: 'Благодарен за макет и предложенный UI сайту TodoMVC.',
     state: 'inProgress',
-    demo: '',
-    repo: 'https://github.com/abratsiuk/p5.react.ts.scss.todo',
-    technologyDescription: [],
+    demo: 'https://abratsiuk.github.io/p5.todos/',
+    repo: 'https://github.com/abratsiuk/p5.todos',
+    technologyDescription: [
+      'TO DO:',
+      '- заменить передачу функций в пропсах на Context',
+    ],
   },
 
   {
@@ -82,9 +85,12 @@ export const projectsDataRu: IProject[] = [
       'images/projects/p4.uazdao_6.jpg',
       'images/projects/p4.uazdao_7.jpg',
       'images/projects/p4.uazdao_8.jpg',
+      'images/projects/p4.uazdao_9.jpg',
+      'images/projects/p4.uazdao_10.jpg',
+      'images/projects/p4.uazdao_11.jpg',
     ],
-    nameShort: 'книжка',
-    name: 'книжка',
+    nameShort: 'Уаздао',
+    name: 'Уаздао',
     shortDescription:
       'Проект посвящен шуточной философии Уаздао в книгах Павла Иевлева',
     fullDescription: [
@@ -101,7 +107,7 @@ export const projectsDataRu: IProject[] = [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
     ],
     comment: '',
-    state: 'preparing',
+    state: 'finished',
     demo: 'https://abratsiuk.github.io/p4.uazdao',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
     technologyDescription: [],
