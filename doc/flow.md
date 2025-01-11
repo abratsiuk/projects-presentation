@@ -224,3 +224,10 @@ https://icon-icons.com/search/icons/?filtro=car&page=3
 edit pictures
 https://www.photopea.com/
 
+========================
+compress images
+
+https://tinypng.com/
+
+=========================
+
