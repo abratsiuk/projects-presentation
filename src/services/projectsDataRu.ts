@@ -52,7 +52,7 @@ export const projectsDataRu: IProject[] = [
     shortDescription: 'React TypeScript Todo App',
     fullDescription: [
       'Todo приложение на React и TypeScript.',
-      'Оптимизировано для уменьшения количества ререндеров.',
+      'Оптимизировано для уменьшения количества перечиток компонентов.',
     ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
@@ -62,12 +62,17 @@ export const projectsDataRu: IProject[] = [
     ],
     technologyAdditional: [],
     comment: 'Благодарен за макет и предложенный UI сайту TodoMVC.',
-    state: 'inProgress',
+    state: 'finished',
     demo: 'https://abratsiuk.github.io/p5.todos/',
     repo: 'https://github.com/abratsiuk/p5.todos',
     technologyDescription: [
-      'TO DO:',
-      '- заменить передачу функций в пропсах на Context',
+      'Техническое описание:',
+      '- используется React и Typescript',
+      '- оптимизирован для уменьшения количества перечиток комполнентов (используются useCallback, useMemo, React.memo)',
+      '- используется Context. Для оптимизации использует 2 контекста: для данных и отдельно для функций ( - фактически выигрыш - только нет лишней перечитки TodoNew, поскольку только этот компонент зависит только от контекста с функциями :) ) ',
+      '- используются кастомные хуки',
+      '- Sass и БЕМ методология для стилей',
+      '- cборка на Vite и используется yarn',
     ],
   },
 
