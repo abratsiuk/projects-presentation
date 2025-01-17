@@ -2,44 +2,6 @@ import { IProject } from '../interfaces/IProject';
 
 export const projectsDataRu: IProject[] = [
   {
-    code: 'presentation',
-    imageSmall: 'images/projects/presentation_small.png',
-    imageMedium: 'images/projects/presentation_medium.png',
-    images: [],
-    nameShort: 'презентация',
-    name: 'презентация проектов',
-    shortDescription: 'Список проектов для презентации.',
-    fullDescription: [
-      'Список проектов содержит описание проекта, перечень использованных технологий, ссылки на демонстрационную версию и на репозиторий проекта в GitHub.',
-      'Демонстрационные версии сделаны или в GitHub Actions или в GitHub Pages.',
-      'Состояние проектов:',
-      'finished - завершен и опубликован,',
-      'inProgress - завершен, продолжается улучшение или применение каких-то новых технологий',
-      'preparing - завершен, подготавливается публикация и исправляются ошибки',
-    ],
-    technology: [
-      { image: 'images/technology/react48.png', name: 'React' },
-      { image: 'images/technology/ts48.png', name: 'TypeScript' },
-      { image: 'images/technology/sass48.png', name: 'Sass' },
-      { image: 'images/technology/bem48.png', name: 'BEM' },
-    ],
-    technologyAdditional: [
-      { image: 'images/technology/react-router.svg', name: 'React Router' },
-    ],
-    comment: '',
-    state: 'finished',
-    demo: 'https://abratsiuk.github.io/projects-presentation/',
-    repo: 'https://github.com/abratsiuk/projects-presentation',
-    technologyDescription: [
-      'Техническое описание:',
-      '- используется React и Typescript',
-      '- статическое приложение, от действий пользователя ничего не меняется, поэтому хуки не используются',
-      '- React Router 6',
-      '- Sass и БЕМ методология для стилей',
-      '- cборка на Vite и используется yarn',
-    ],
-  },
-  {
     code: 'p5.todos',
     imageSmall: 'images/projects/p5.todos_small.png',
     imageMedium: 'images/projects/p5.todos_medium.png',
@@ -75,7 +37,6 @@ export const projectsDataRu: IProject[] = [
       '- cборка на Vite и используется yarn',
     ],
   },
-
   {
     code: 'p4.uazdao',
     imageSmall: 'images/projects/p4.uazdao_small.png',
@@ -116,6 +77,44 @@ export const projectsDataRu: IProject[] = [
     demo: 'https://abratsiuk.github.io/p4.uazdao',
     repo: 'https://github.com/abratsiuk/p4.uazdao',
     technologyDescription: [],
+  },
+  {
+    code: 'presentation',
+    imageSmall: 'images/projects/presentation_small.png',
+    imageMedium: 'images/projects/presentation_medium.png',
+    images: [],
+    nameShort: 'презентация',
+    name: 'презентация проектов',
+    shortDescription: 'Список проектов для презентации.',
+    fullDescription: [
+      'Список проектов содержит описание проекта, перечень использованных технологий, ссылки на демонстрационную версию и на репозиторий проекта в GitHub.',
+      'Демонстрационные версии сделаны или в GitHub Actions или в GitHub Pages.',
+      'Состояние проектов:',
+      'finished - завершен и опубликован,',
+      'inProgress - завершен, продолжается улучшение или применение каких-то новых технологий',
+      'preparing - завершен, подготавливается публикация и исправляются ошибки',
+    ],
+    technology: [
+      { image: 'images/technology/react48.png', name: 'React' },
+      { image: 'images/technology/ts48.png', name: 'TypeScript' },
+      { image: 'images/technology/sass48.png', name: 'Sass' },
+      { image: 'images/technology/bem48.png', name: 'BEM' },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+    ],
+    comment: '',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/projects-presentation/',
+    repo: 'https://github.com/abratsiuk/projects-presentation',
+    technologyDescription: [
+      'Техническое описание:',
+      '- используется React и Typescript',
+      '- статическое приложение, от действий пользователя ничего не меняется, поэтому хуки не используются',
+      '- React Router 6',
+      '- Sass и БЕМ методология для стилей',
+      '- cборка на Vite и используется yarn',
+    ],
   },
   {
     code: '01.shop',
