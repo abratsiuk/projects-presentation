@@ -141,7 +141,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment:
       'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
-    state: 'preparing',
+    state: 'finished',
     demo: 'https://abratsiuk.github.io/01.react.shop/',
     repo: 'https://github.com/abratsiuk/01.react.shop',
     technologyDescription: [],
@@ -175,7 +175,7 @@ export const projectsDataRu: IProject[] = [
     ],
     comment:
       'Учебный проект по курсу Михаила Непомнящего: "React с нуля для начинающих + 3 проекта в портфолио".',
-    state: 'preparing',
+    state: 'finished',
     demo: 'https://abratsiuk.github.io/01.react.food/',
     repo: 'https://github.com/abratsiuk/01.react.food',
     technologyDescription: [],
