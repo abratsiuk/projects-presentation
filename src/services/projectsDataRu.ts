@@ -20,7 +20,10 @@ export const projectsDataRu: IProject[] = [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/ts32.png', name: 'TypeScript' },
       { image: 'images/technology/sass32.png', name: 'Sass' },
-      { image: 'images/technology/bem32.png', name: 'BEM' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
     ],
     technologyAdditional: [],
     comment: 'Благодарен за макет и предложенный UI сайту TodoMVC.',
@@ -67,7 +70,10 @@ export const projectsDataRu: IProject[] = [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/ts32.png', name: 'TypeScript' },
       { image: 'images/technology/sass32.png', name: 'Sass' },
-      { image: 'images/technology/bem32.png', name: 'BEM' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
     ],
     technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
@@ -98,7 +104,10 @@ export const projectsDataRu: IProject[] = [
       { image: 'images/technology/react48.png', name: 'React' },
       { image: 'images/technology/ts48.png', name: 'TypeScript' },
       { image: 'images/technology/sass48.png', name: 'Sass' },
-      { image: 'images/technology/bem48.png', name: 'BEM' },
+      {
+        image: 'images/technology/bem48.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
     ],
     technologyAdditional: [
       { image: 'images/technology/react-router.svg', name: 'React Router' },
