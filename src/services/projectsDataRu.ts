@@ -31,9 +31,10 @@ export const projectsDataRu: IProject[] = [
     technologyDescription: [
       'Техническое описание:',
       '- используется React и Typescript',
-      '- используется Redux и Redux Thunk',
-      '- Sass и БЕМ методология для стилей',
-      '- cборка CRA и старые Redux 4, React 17 (и nvm use 16.20.2)',
+      '- используется Redux и Redux Thunk, не используется Redux Toolkit',
+      '- axios для запросов на сервер и API fortniteapi.io',
+      '- Sass и БЕМ методология для стилей, без CSS библиотек',
+      '- cборка CRA и Redux 4, React 17 (нужно: nvm use 16.20.2)',
     ],
   },
   {
