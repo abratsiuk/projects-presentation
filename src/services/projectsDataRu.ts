@@ -23,7 +23,9 @@ export const projectsDataRu: IProject[] = [
         name: 'BEM (Block, Element, Modifier)',
       },
     ],
-    technologyAdditional: [],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+    ],
     comment: '',
     state: 'inProgress',
     demo: '',
