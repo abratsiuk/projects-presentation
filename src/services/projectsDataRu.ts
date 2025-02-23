@@ -31,7 +31,7 @@ export const projectsDataRu: IProject[] = [
     technologyDescription: [
       'Техническое описание:',
       '- используется React и Typescript',
-      '- используется Redux',
+      '- используется Redux и Thunk',
       '- Sass и БЕМ методология для стилей',
       '- cборка CRA и старые Redux 4, React 17 (и nvm use 16.20.2)',
     ],
