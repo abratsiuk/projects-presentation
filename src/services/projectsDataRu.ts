@@ -2,6 +2,41 @@ import { IProject } from '../interfaces/IProject';
 
 export const projectsDataRu: IProject[] = [
   {
+    code: '02.redux.shop',
+    imageSmall: 'images/projects/02.redux.shop_small.png',
+    imageMedium: 'images/projects/02.redux.shop_medium.png',
+    images: [
+      'images/projects/02.redux.shop_02.jpg',
+      'images/projects/02.redux.shop_03.jpg',
+    ],
+    nameShort: 'redux.shop',
+    name: 'Redux Shop',
+    shortDescription: 'Магазин на Redux',
+    fullDescription: ['Магазин на React, Typescript, Redux .', 'CSS.'],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
+      { image: 'images/technology/redux32.png', name: 'Redux' },
+      { image: 'images/technology/sass32.png', name: 'Sass' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
+    ],
+    technologyAdditional: [],
+    comment: '',
+    state: 'inProgress',
+    demo: '',
+    repo: 'https://github.com/abratsiuk/02.redux.shop',
+    technologyDescription: [
+      'Техническое описание:',
+      '- используется React и Typescript',
+      '- используется Redux',
+      '- Sass и БЕМ методология для стилей',
+      '- cборка CRA и старые Redux 4, React 17 (и nvm use 16.20.2)',
+    ],
+  },
+  {
     code: 'p5.todos',
     imageSmall: 'images/projects/p5.todos_small.png',
     imageMedium: 'images/projects/p5.todos_medium.png',

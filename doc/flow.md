@@ -230,4 +230,21 @@ compress images
 https://tinypng.com/
 
 =========================
+redux icon
+https://iconscout.com/icons/redux
 
+===========================
+
+PS D:\R\projects-presentation> nvm list
+
+    22.4.0
+    20.18.1
+  * 16.20.2 (Currently using 64-bit executable)
+PS D:\R\projects-presentation> nvm use 20.18.1
+Now using node v20.18.1 (64-bit)
+PS D:\R\projects-presentation> 
+
+=================
+npm install -g yarn
+corepack enable
+yarn start
