@@ -35,6 +35,7 @@ export const projectsDataRu: IProject[] = [
       '- axios для запросов на сервер и API fortniteapi.io',
       '- Sass и БЕМ методология для стилей, без CSS библиотек',
       '- стек технологий 2021 года: cборка CRA и Redux 4, React 17 (нужно: nvm use 16.20.2)',
+      '- в перспективе будет еще 1 проект: этот же проект в последних версиях и с Redux Toolkit',
     ],
   },
   {
