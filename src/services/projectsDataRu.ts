@@ -1,18 +1,29 @@
 import { IProject } from '../interfaces/IProject';
 
+/*
+200 x 140 - small
+900 x 600 - medium
+*/
 export const projectsDataRu: IProject[] = [
   {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
     imageMedium: 'images/projects/02.redux.shop_medium.png',
     images: [
-      'images/projects/02.redux.shop_02.jpg',
-      'images/projects/02.redux.shop_03.jpg',
+      'images/projects/02.redux_01.jpg',
+      'images/projects/02.redux_02.jpg',
+      'images/projects/02.redux_03.jpg',
+      'images/projects/02.redux_04.jpg',
     ],
     nameShort: 'redux.shop',
     name: 'Redux Shop',
     shortDescription: 'Магазин на Redux',
-    fullDescription: ['Магазин на React, Typescript, Redux .', 'CSS.'],
+    fullDescription: [
+      'Магазин на React, Typescript, Redux .',
+      'Магазин на основе АПИ от игры fortniteapi.io.',
+      'Покупки в каталоге товаров попадают в корзину. Корзина после подтверждения становится заказом. Есть список заказов. Заказ может быть принят или отменен. При отмене заказа средства возвращаются. Корзина и история заказов хранится в LocalStorage.',
+      'Средства можно добавить на странице профиля.',
+    ],
     technology: [
       { image: 'images/technology/react32.png', name: 'React' },
       { image: 'images/technology/ts32.png', name: 'TypeScript' },
@@ -28,15 +39,16 @@ export const projectsDataRu: IProject[] = [
     ],
     comment: '',
     state: 'inProgress',
-    demo: '',
+    demo: 'https://02-redux-shop.vercel.app/',
     repo: 'https://github.com/abratsiuk/02.redux.shop',
     technologyDescription: [
       'Техническое описание:',
       '- используется React и Typescript',
       '- используется Redux и Redux Thunk, не используется Redux Toolkit',
       '- axios для запросов на сервер и API fortniteapi.io',
+      '- фильтрация каталога товаров на фронтенде',
       '- Sass и БЕМ методология для стилей, без CSS библиотек',
-      '- стек технологий 2021 года: cборка CRA и Redux 4, React 17 (нужно: nvm use 16.20.2)',
+      '- стек технологий 2021 года: cборка CRA и Redux 4, React 17',
       '- в перспективе будет еще 1 проект: этот же проект в последних версиях и с Redux Toolkit',
     ],
   },
