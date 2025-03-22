@@ -5,8 +5,9 @@ import { IPerson } from '../interfaces/IPerson';
 import { TProjectState } from '../types/TProjectState';
 import { projectStateImagesData } from './projectStateImagesData';
 
-export const getProjects = (): IProject[] => projectsDataRu;
-// projectsDataRu.filter((project) => project.state === 'finished');
+export const getProjects = (): IProject[] =>
+  //projectsDataRu;
+  projectsDataRu.filter((project) => project.code !== 'p4.uazdao');
 
 export const getProject = (code: string | undefined): IProject | undefined => {
   if (!code) return projectsDataRu[0];
