@@ -4,7 +4,7 @@ import { IProject } from '../interfaces/IProject';
 200 x 140 - small
 900 x 600 - medium
 */
-export const projectsDataRu: IProject[] = [
+export const projectsData: IProject[] = [
   {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
@@ -145,7 +145,7 @@ export const projectsDataRu: IProject[] = [
     shortDescription: 'Список проектов для презентации.',
     fullDescription: [
       'Список проектов содержит описание проекта, перечень использованных технологий, ссылки на демонстрационную версию и на репозиторий проекта в GitHub.',
-      'Демонстрационные версии сделаны или в GitHub Actions или в GitHub Pages.',
+      'Демонстрационные версии сделаны в GitHub Actions, в GitHub Pages или в Vercel.',
       'Состояние проектов:',
       'finished - завершен и опубликован,',
       'inProgress - завершен, продолжается улучшение или применение каких-то новых технологий',

@@ -16,11 +16,11 @@ export const Person = () => {
       <h3 className="Person__position">{person.position}</h3>
 
       <div className="Person__contacts">
-        <div className="Person__skype">
+        {/* <div className="Person__skype">
           <a href={`skype:${person.skype}?chat`} title="Open Skype">
             <i className="fa-brands fa-skype"></i> {person.skype}
           </a>
-        </div>
+        </div> */}
 
         <div className="Person__email">
           <a href={`mailto:${person.email}`} title="Send Email">

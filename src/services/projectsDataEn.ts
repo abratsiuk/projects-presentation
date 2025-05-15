@@ -1,3 +1,277 @@
 import { IProject } from '../interfaces/IProject';
 
-export const projectsData: IProject[] = [];
+/*
+200 x 140 - small
+900 x 600 - medium
+*/
+export const projectsData: IProject[] = [
+  {
+    code: '02.redux.shop',
+    imageSmall: 'images/projects/02.redux.shop_small.png',
+    imageMedium: 'images/projects/02.redux.shop_medium.png',
+    images: [
+      'images/projects/02.redux_01.jpg',
+      'images/projects/02.redux_02.jpg',
+      'images/projects/02.redux_03.jpg',
+      'images/projects/02.redux_04.jpg',
+    ],
+    nameShort: 'redux.shop',
+    name: 'Redux store',
+    shortDescription: 'Redux store',
+    fullDescription: [
+      'Store built with React, TypeScript, and Redux',
+      'Store based on the API from the game fortniteapi.io',
+      'Purchases from the product catalog go to the cart. After confirmation, the cart becomes an order. There is an order list. An order can be accepted or canceled. If canceled, the funds are refunded. The cart and order history are stored in LocalStorage.',
+      'Funds can be added on the profile page.',
+    ],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
+      { image: 'images/technology/redux32.png', name: 'Redux' },
+      { image: 'images/technology/sass32.png', name: 'Sass' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+    ],
+    comment: '',
+    state: 'inProgress',
+    demo: 'https://02-redux-shop.vercel.app/',
+    repo: 'https://github.com/abratsiuk/02.redux.shop',
+    technologyDescription: [
+      'Technical description:',
+      '- React and TypeScript are used',
+      '- Redux and Redux Thunk are used, Redux Toolkit is not used',
+      '- axios is used for server requests and the fortniteapi.io API',
+      '- product catalog filtering is implemented on the frontend',
+      '- styles are written using Sass and BEM methodology, without CSS libraries',
+      '- 2021 tech stack: CRA build, Redux 4, React 17',
+      '- a second version of the project is planned using the latest versions and Redux Toolkit',
+    ],
+  },
+  {
+    code: 'p5.todos',
+    imageSmall: 'images/projects/p5.todos_small.png',
+    imageMedium: 'images/projects/p5.todos_medium.png',
+    images: [
+      'images/projects/p5.todos_02.jpg',
+      'images/projects/p5.todos_03.jpg',
+    ],
+    nameShort: 'todos',
+    name: 'todos',
+    shortDescription: 'React TypeScript Todo App',
+    fullDescription: [
+      'Todo application built with React and TypeScript.',
+      'Optimized to reduce the number of component re-renders.',
+    ],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
+      { image: 'images/technology/sass32.png', name: 'Sass' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
+    ],
+    technologyAdditional: [],
+    comment:
+      'Grateful for the layout and the suggested UI from the TodoMVC site.',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/p5.todos/',
+    repo: 'https://github.com/abratsiuk/p5.todos',
+    technologyDescription: [
+      'Technical description:',
+      '- React and TypeScript are used',
+      '- optimized to reduce the number of component re-renders (using useCallback, useMemo, React.memo)',
+      '- Context is used. For optimization, two contexts are implemented: one for data and one separately for functions.',
+      '- custom hooks are used',
+      '- styles are written using Sass and BEM methodology',
+      '- built with Vite and uses yarn',
+    ],
+  },
+  {
+    code: 'p4.uazdao',
+    imageSmall: 'images/projects/p4.uazdao_small.png',
+    imageMedium: 'images/projects/p4.uazdao_medium.png',
+    images: [
+      'images/projects/p4.uazdao_0.jpg',
+      'images/projects/p4.uazdao_1.jpg',
+      'images/projects/p4.uazdao_2.jpg',
+      'images/projects/p4.uazdao_3.jpg',
+      'images/projects/p4.uazdao_4.jpg',
+      'images/projects/p4.uazdao_5.jpg',
+      'images/projects/p4.uazdao_6.jpg',
+      'images/projects/p4.uazdao_7.jpg',
+      'images/projects/p4.uazdao_8.jpg',
+      'images/projects/p4.uazdao_9.jpg',
+      'images/projects/p4.uazdao_10.jpg',
+      'images/projects/p4.uazdao_11.jpg',
+    ],
+    nameShort: 'Uazdao',
+    name: 'Uazdao',
+    shortDescription:
+      'The project is dedicated to the humorous philosophy of Uazdao in the books by Pavel Ievlev',
+    fullDescription: [
+      'Uazdao is a practical philosophy for working with complex systems.',
+      'The author of the book, Pavel Ievlev, is a science fiction writer and editor of a car enthusiasts’ website. The UAZ-469 vehicle served the author as a symbol of the meditation process. As he writes, this vehicle always moves, always breaks down, it can always be fixed, but it can never be fully repaired. This book is part of a science fiction series about multiple universes.',
+    ],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/ts32.png', name: 'TypeScript' },
+      { image: 'images/technology/sass32.png', name: 'Sass' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+    ],
+    comment: '',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/p4.uazdao',
+    repo: 'https://github.com/abratsiuk/p4.uazdao',
+    technologyDescription: [],
+  },
+  {
+    code: 'presentation',
+    imageSmall: 'images/projects/presentation_small.png',
+    imageMedium: 'images/projects/presentation_medium.png',
+    images: [],
+    nameShort: 'presentation',
+    name: 'project presentation',
+    shortDescription: 'A list of projects for presentation.',
+    fullDescription: [
+      'The project list includes a description of each project, the technologies used, and links to a demo and the project repository on GitHub.',
+      'Demos are deployed via GitHub Actions, GitHub Pages, or Vercel.',
+      'Project statuses:',
+      'finished - completed and published,',
+      'inProgress - completed, but being improved or updated with new technologies,',
+      'preparing - completed, being prepared for publication and bug fixes are underway',
+    ],
+    technology: [
+      { image: 'images/technology/react48.png', name: 'React' },
+      { image: 'images/technology/ts48.png', name: 'TypeScript' },
+      { image: 'images/technology/sass48.png', name: 'Sass' },
+      {
+        image: 'images/technology/bem48.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+    ],
+    comment: '',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/projects-presentation/',
+    repo: 'https://github.com/abratsiuk/projects-presentation',
+    technologyDescription: [
+      'Technical description:',
+      '- React and TypeScript are used',
+      '- static application; nothing changes based on user actions, so no hooks are used',
+      '- React Router 6',
+      '- styles are written using Sass and BEM methodology',
+      '- built with Vite and uses yarn',
+    ],
+  },
+  {
+    code: '01.shop',
+    imageSmall: 'images/projects/01.shop_small.png',
+    imageMedium: 'images/projects/01.shop_medium.png',
+    images: ['images/projects/01.shop_2.jpg', 'images/projects/01.shop_3.jpg'],
+    nameShort: 'shop',
+    name: 'react shop',
+    shortDescription: 'Training project React Shop',
+    fullDescription: [
+      'A simple example of a shop built with React.',
+      'CSS is organized using the materializecss library.',
+    ],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/js32.png', name: 'JavaScript' },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+      {
+        image: 'images/technology/materialize.svg',
+        name: 'css: materializecss',
+      },
+    ],
+    comment:
+      'Training project based on the course by Mikhail Nepomnyashchy: "React from Scratch for Beginners + 3 Portfolio Projects".',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/01.react.shop/',
+    repo: 'https://github.com/abratsiuk/01.react.shop',
+    technologyDescription: [],
+  },
+  {
+    code: '01.food',
+    imageSmall: 'images/projects/01.food_small.png',
+    imageMedium: 'images/projects/01.food_medium.png',
+    images: [
+      'images/projects/01.food_1.jpg',
+      'images/projects/01.food_2.jpg',
+      'images/projects/01.food_3.jpg',
+    ],
+    nameShort: 'food',
+    name: 'react food',
+    shortDescription: 'Training project React Food',
+    fullDescription: [
+      'A simple food-related application built with React.',
+      'CSS is organized using the materializecss library.',
+    ],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/js32.png', name: 'JavaScript' },
+    ],
+    technologyAdditional: [
+      { image: 'images/technology/react-router.svg', name: 'React Router' },
+      {
+        image: 'images/technology/materialize.svg',
+        name: 'css: materializecss',
+      },
+    ],
+    comment:
+      'Training project based on the course by Mikhail Nepomnyashchy: "React from Scratch for Beginners + 3 Portfolio Projects".',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/01.react.food/',
+    repo: 'https://github.com/abratsiuk/01.react.food',
+    technologyDescription: [],
+  },
+  {
+    code: '01.movie',
+    imageSmall: 'images/projects/01.movie_small.png',
+    imageMedium: 'images/projects/01.movie_medium.png',
+    images: [
+      'images/projects/01.movie_1.jpg',
+      'images/projects/01.movie_2.jpg',
+      'images/projects/01.movie_3.jpg',
+    ],
+    nameShort: 'movie',
+    name: 'react movie',
+    shortDescription: 'Training project React Movie',
+    fullDescription: [
+      'A small movie-related application built with React.',
+      'CSS is organized using the materializecss library.',
+    ],
+    technology: [
+      { image: 'images/technology/react32.png', name: 'React' },
+      { image: 'images/technology/js32.png', name: 'JavaScript' },
+    ],
+    technologyAdditional: [
+      {
+        image: 'images/technology/materialize.svg',
+        name: 'css: materializecss',
+      },
+    ],
+    comment:
+      'Training project based on the course by Mikhail Nepomnyashchy: "React from Scratch for Beginners + 3 Portfolio Projects".',
+    state: 'preparing',
+    demo: 'https://abratsiuk.github.io/01.react.movie/',
+    repo: 'https://github.com/abratsiuk/01.react.movie',
+    technologyDescription: [''],
+  },
+];
