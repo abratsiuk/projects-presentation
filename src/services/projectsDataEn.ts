@@ -14,11 +14,11 @@ export const projectsData: IProject[] = [
     name: 'NgRx store',
     shortDescription: 'NgRx store',
     fullDescription: [
-      'Store built with Angular and NgRx ',
+      '// It’s the same as a Redux store, but implemented in Angular with NgRx.',
+      'Store built with Angular 9 (NodeJS 14) and NgRx ',
       'Store based on the API from the game fortniteapi.io',
       'Purchases from the product catalog go to the cart. After confirmation, the cart becomes an order. There is an order list. An order can be accepted or canceled. If canceled, the funds are refunded. The cart and order history are stored in LocalStorage.',
       'Funds can be added on the profile page.',
-      '// It’s the same as a Redux store, but implemented in Angular with NgRx.',
     ],
     technology: [
       { image: 'images/technology/angular32.png', name: 'Angular' },
