@@ -32,7 +32,7 @@ export const projectsData: IProject[] = [
     technologyAdditional: [],
     comment: '',
     state: 'started',
-    demo: '',
+    demo: 'https://abratsiuk.github.io/ngrx-shop/',
     repo: 'https://github.com/abratsiuk/ngrx-shop',
     technologyDescription: [
       'Technical description:',
