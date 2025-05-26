@@ -32,7 +32,7 @@ export const ProjectItemLarge: React.FC<IProject> = ({
           href={demo}
           text="demo"
           parentClassName_disabled="ProjectItemLarge__demo_disabled"
-          text_disabled="demo (скоро)"
+          text_disabled="demo (soon)"
         />
 
         <ExternalLink

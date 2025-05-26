@@ -1,1 +1,1 @@
-export type TProjectState = 'finished' | 'inProgress' | 'preparing';
+export type TProjectState = 'finished' | 'inProgress' | 'preparing' | 'started';

@@ -6,6 +6,42 @@ import { IProject } from '../interfaces/IProject';
 */
 export const projectsData: IProject[] = [
   {
+    code: 'ngrx-shop',
+    imageSmall: 'images/projects/ngrx_shop_small.png',
+    imageMedium: 'images/projects/ngrx_shop_medium.png',
+    images: [],
+    nameShort: 'ngrx-shop',
+    name: 'NgRx store',
+    shortDescription:
+      'NgRx store (the same as Redux store, but in Angular and NgRx). State: started.',
+    fullDescription: [
+      'Store built with Angular and NgRx ',
+      'Store based on the API from the game fortniteapi.io',
+      'Purchases from the product catalog go to the cart. After confirmation, the cart becomes an order. There is an order list. An order can be accepted or canceled. If canceled, the funds are refunded. The cart and order history are stored in LocalStorage.',
+      'Funds can be added on the profile page.',
+    ],
+    technology: [
+      { image: 'images/technology/angular32.png', name: 'Angular' },
+      { image: 'images/technology/ngrx32.png', name: 'NgRx' },
+      { image: 'images/technology/sass32.png', name: 'Sass' },
+      {
+        image: 'images/technology/bem32.png',
+        name: 'BEM (Block, Element, Modifier)',
+      },
+    ],
+    technologyAdditional: [],
+    comment: '',
+    state: 'started',
+    demo: '',
+    repo: 'https://github.com/abratsiuk/ngrx-shop',
+    technologyDescription: [
+      'Technical description:',
+      '- Angular 9 and NgRx are used',
+      '- product catalog filtering is implemented on the frontend',
+      '- styles are written using Sass and BEM methodology, without CSS libraries',
+    ],
+  },
+  {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
     imageMedium: 'images/projects/02.redux.shop_medium.png',
