@@ -6,6 +6,42 @@ import { IProject } from '../interfaces/IProject';
 */
 export const projectsData: IProject[] = [
   {
+    code: 'an9_employee',
+    imageSmall: 'images/projects/an9_employee_small.png',
+    imageMedium: 'images/projects/an9_employee_medium.png',
+    images: [
+      'images/projects/an9_employee_01.jpg',
+      'images/projects/an9_employee_02.jpg',
+      'images/projects/an9_employee_03.png',
+    ],
+    nameShort: 'Angular 9 CRUD',
+    name: 'Angular 9 CRUD',
+    shortDescription: 'Список сотрудников и CRUD на Angular 9',
+    fullDescription: [
+      'Список сотрудников представлен в виде таблицы для широких экранов и грида с карточками для малых экранов.',
+      'Добавлены пажинация и сортировка. Реализованы CRUD операции.',
+      'Интерфейс оформлен в Angular Material 9.',
+    ],
+    technology: [
+      { image: 'images/technology/Angular948.png', name: 'Angular 9' },
+      { image: 'images/technology/ts48.png', name: 'TypeScript' },
+      {
+        image: 'images/technology/AngularMaterial948.png',
+        name: 'Angular Material 9',
+      },
+    ],
+    technologyAdditional: [],
+    comment: '',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/an9_real_test_project/',
+    repo: 'https://github.com/abratsiuk/an9_real_test_project',
+    technologyDescription: [
+      'Техническое описание:',
+      '- используется Angular 9 и Angular Material 9',
+      '- бекенд написан на Asp.Net Core, jge, опубликован на Render.com и присутствует в списке презентаций',
+    ],
+  },
+  {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
     imageMedium: 'images/projects/02.redux.shop_medium.png',
