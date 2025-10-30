@@ -42,6 +42,41 @@ export const projectsData: IProject[] = [
     ],
   },
   {
+    code: 'test_backend',
+    imageSmall: 'images/projects/test_backend_small.png',
+    imageMedium: 'images/projects/test_backend_medium.png',
+    images: [
+      'images/projects/test_backend_01.jpg',
+      'images/projects/test_backend_02.jpg',
+      'images/projects/test_backend_03.png',
+    ],
+    nameShort: 'Backend for An9 CRUD',
+    name: 'Backend for An9 CRUD',
+    shortDescription: 'Backend for список сотрудников и CRUD на Angular 9',
+    fullDescription: [
+      'Backend for список сотрудников и CRUD на Angular 9.',
+      'Добавлены пажинация и сортировка. Реализованы CRUD операции.',
+    ],
+    technology: [
+      { image: 'images/technology/Angular948.png', name: 'Angular 9' },
+      { image: 'images/technology/ts48.png', name: 'TypeScript' },
+      {
+        image: 'images/technology/AngularMaterial948.png',
+        name: 'Angular Material 9',
+      },
+    ],
+    technologyAdditional: [],
+    comment: '',
+    state: 'finished',
+    demo: 'https://abratsiuk.github.io/an9_real_test_project/',
+    repo: 'https://github.com/abratsiuk/an9_real_test_project',
+    technologyDescription: [
+      'Техническое описание:',
+      '- используется Angular 9 и Angular Material 9',
+      '- бекенд написан на Asp.Net Core, jge, опубликован на Render.com и присутствует в списке презентаций',
+    ],
+  },
+  {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
     imageMedium: 'images/projects/02.redux.shop_medium.png',

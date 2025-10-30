@@ -5,39 +5,6 @@ import { IProject } from '../interfaces/IProject';
 900 x 600 - medium
 */
 export const projectsData: IProject[] = [
-  /*
-  {
-    code: 'an20_employee',
-    imageSmall: 'images/projects/an20_employee_small.png',
-    imageMedium: 'images/projects/an20_employee_medium.png',
-    images: [],
-    nameShort: 'Angular 20 CRUD',
-    name: 'Angular 20 CRUD',
-    shortDescription: 'Employee list and CRUD in Angular 20',
-    fullDescription: [
-      'The same as the "Angular 9 CRUD" project, but written in the Angular 20 style.',
-      'The employee list is displayed as a table for wide screens and as a grid with cards for small screens.',
-      'Pagination and sorting have been added. CRUD operations are implemented.',
-      'The interface is designed using Angular Material 20.',
-    ],
-    technology: [
-      { image: 'images/technology/angular948.png', name: 'Angular 9' },
-      {
-        image: 'images/technology/angularMaterial948.png',
-        name: 'Angular Material 9',
-      },
-    ],
-    technologyAdditional: [],
-    comment: '',
-    state: 'started',
-    demo: 'https://abratsiuk.github.io/an20_real_test_project/',
-    repo: 'https://github.com/abratsiuk/an20_real_test_project',
-    technologyDescription: [
-      'Technical description:',
-      '- Angular 20 and Angular Material 20 are used.',
-      '- The backend is built with ASP.NET Core, published on Render.com, and included in the presentation list.',
-    ],
-  },*/
   {
     code: 'an9_employee',
     imageSmall: 'images/projects/an9_employee_small.png',
@@ -73,6 +40,65 @@ export const projectsData: IProject[] = [
       '- The backend is built with ASP.NET Core, published on Render.com, and included in the presentation list.',
     ],
   },
+  {
+    code: 'back_test_project',
+    imageSmall: 'images/projects/back_test_project_small.png',
+    imageMedium: 'images/projects/back_test_project_medium.png',
+    images: ['images/projects/back_test_project_01.png'],
+    nameShort: 'back_test_project',
+    name: 'Backend Test',
+    shortDescription:
+      'ASP.Net Core backend for the employee list and CRUD in Angular 9',
+    fullDescription: [
+      'Backend for the employee list and CRUD in Angular 9.',
+      'Pagination and sorting have been added. CRUD operations implemented.',
+    ],
+    technology: [],
+    technologyAdditional: [],
+    comment: '',
+    state: 'finished',
+    demo: 'https://back-test-api.onrender.com/swagger/index.html',
+    repo: 'https://github.com/abratsiuk/back_real_test_project-',
+    technologyDescription: [
+      'Technical description:',
+      '- backend built with ASP.NET Core and EF Core',
+      '- used PostgreSql',
+      '- published in Render.com',
+      '- on the first launch, Render.com instance wakes up, so please wait a bit',
+    ],
+  },
+  /*{
+    code: 'an20_employee',
+    imageSmall: 'images/projects/an20_employee_small.png',
+    imageMedium: 'images/projects/an20_employee_medium.png',
+    images: [],
+    nameShort: 'Angular 20 CRUD',
+    name: 'Angular 20 CRUD',
+    shortDescription: 'Employee list and CRUD in Angular 20',
+    fullDescription: [
+      'The same as the "Angular 9 CRUD" project, but written in the Angular 20 style.',
+      'The employee list is displayed as a table for wide screens and as a grid with cards for small screens.',
+      'Pagination and sorting have been added. CRUD operations are implemented.',
+      'The interface is designed using Angular Material 20.',
+    ],
+    technology: [
+      { image: 'images/technology/angular948.png', name: 'Angular 9' },
+      {
+        image: 'images/technology/angularMaterial948.png',
+        name: 'Angular Material 9',
+      },
+    ],
+    technologyAdditional: [],
+    comment: '',
+    state: 'started',
+    demo: 'https://abratsiuk.github.io/an20_real_test_project/',
+    repo: 'https://github.com/abratsiuk/an20_real_test_project',
+    technologyDescription: [
+      'Technical description:',
+      '- Angular 20 and Angular Material 20 are used.',
+      '- The backend is built with ASP.NET Core, published on Render.com, and included in the presentation list.',
+    ],
+  },*/
   {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
