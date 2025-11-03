@@ -17,13 +17,13 @@ export const projectsData: IProject[] = [
       'The same as the "Angular 9 CRUD" project, but written in the Angular 20 style.',
       'The employee list is displayed as a table for wide screens and as a grid with cards for small screens.',
       'Pagination and sorting have been added. CRUD operations are implemented.',
-      'The interface is designed using Angular Material 9.',
+      'The interface is designed using Angular Material 20.',
     ],
     technology: [
       { image: 'images/technology/angular948.png', name: 'Angular 20' },
       {
         image: 'images/technology/angularMaterial948.png',
-        name: 'Angular Material 9',
+        name: 'Angular Material 20',
       },
     ],
     technologyAdditional: [],
