@@ -84,7 +84,7 @@ export const projectsData: IProject[] = [
     shortDescription:
       'ASP.Net Core backend for the employee list and CRUD in Angular 9',
     fullDescription: [
-      'Backend for the employee list and CRUD in Angular 9.',
+      'Backend for the employee list and CRUD in Angular 9 / 20.',
       'Pagination and sorting have been added. CRUD operations implemented.',
     ],
     technology: [],
