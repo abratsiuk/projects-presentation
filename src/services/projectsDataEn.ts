@@ -6,6 +6,39 @@ import { IProject } from '../interfaces/IProject';
 */
 export const projectsData: IProject[] = [
   {
+    code: 'an20_employee',
+    imageSmall: 'images/projects/an20_employee_small.png',
+    imageMedium: 'images/projects/an20_employee_medium.png',
+    images: ['images/projects/an20_employee_01.png'],
+    nameShort: 'Angular 20 CRUD',
+    name: 'Angular 20 CRUD',
+    shortDescription: '(in Progress) Employee list and CRUD in Angular 20',
+    fullDescription: [
+      'The same as the "Angular 9 CRUD" project, but written in the Angular 20 style.',
+      'The employee list is displayed as a table for wide screens and as a grid with cards for small screens.',
+      'Pagination and sorting have been added. CRUD operations are implemented.',
+      'The interface is designed using Angular Material 9.',
+    ],
+    technology: [
+      { image: 'images/technology/angular948.png', name: 'Angular 20' },
+      {
+        image: 'images/technology/angularMaterial948.png',
+        name: 'Angular Material 9',
+      },
+    ],
+    technologyAdditional: [],
+    comment: '',
+    state: 'inProgress',
+    demo: 'https://abratsiuk.github.io/an20_employee/',
+    repo: 'https://github.com/abratsiuk/an20_employee',
+    technologyDescription: [
+      'Technical description:',
+      '- Angular 20 and Angular Material 20 are used.',
+      '- The backend is built with ASP.NET Core, published on Render.com, and included in the presentation list.',
+      '- On the first launch, Render.com instance wakes up, so please wait a bit',
+    ],
+  },
+  {
     code: 'an9_employee',
     imageSmall: 'images/projects/an9_employee_small.png',
     imageMedium: 'images/projects/an9_employee_medium.png',
@@ -38,6 +71,7 @@ export const projectsData: IProject[] = [
       'Technical description:',
       '- Angular 9 and Angular Material 9 are used.',
       '- The backend is built with ASP.NET Core, published on Render.com, and included in the presentation list.',
+      '- On the first launch, Render.com instance wakes up, so please wait a bit',
     ],
   },
   {
@@ -67,38 +101,7 @@ export const projectsData: IProject[] = [
       '- on the first launch, Render.com instance wakes up, so please wait a bit',
     ],
   },
-  /*{
-    code: 'an20_employee',
-    imageSmall: 'images/projects/an20_employee_small.png',
-    imageMedium: 'images/projects/an20_employee_medium.png',
-    images: [],
-    nameShort: 'Angular 20 CRUD',
-    name: 'Angular 20 CRUD',
-    shortDescription: 'Employee list and CRUD in Angular 20',
-    fullDescription: [
-      'The same as the "Angular 9 CRUD" project, but written in the Angular 20 style.',
-      'The employee list is displayed as a table for wide screens and as a grid with cards for small screens.',
-      'Pagination and sorting have been added. CRUD operations are implemented.',
-      'The interface is designed using Angular Material 20.',
-    ],
-    technology: [
-      { image: 'images/technology/angular948.png', name: 'Angular 9' },
-      {
-        image: 'images/technology/angularMaterial948.png',
-        name: 'Angular Material 9',
-      },
-    ],
-    technologyAdditional: [],
-    comment: '',
-    state: 'started',
-    demo: 'https://abratsiuk.github.io/an20_real_test_project/',
-    repo: 'https://github.com/abratsiuk/an20_real_test_project',
-    technologyDescription: [
-      'Technical description:',
-      '- Angular 20 and Angular Material 20 are used.',
-      '- The backend is built with ASP.NET Core, published on Render.com, and included in the presentation list.',
-    ],
-  },*/
+
   {
     code: '02.redux.shop',
     imageSmall: 'images/projects/02.redux.shop_small.png',
