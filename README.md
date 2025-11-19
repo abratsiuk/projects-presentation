@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# 📑 Projects Presentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🚀 Live Demo
 
-Currently, two official plugins are available:
+**[https://abratsiuk.github.io/projects-presentation/](https://abratsiuk.github.io/projects-presentation/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📂 Repository
 
-## Expanding the ESLint configuration
+**[https://github.com/abratsiuk/projects-presentation](https://github.com/abratsiuk/projects-presentation)**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 📘 Overview
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+A React + TypeScript application that displays a structured list of projects for portfolio and presentation purposes.
+Each project contains a description, technology stack, screenshots, and direct links to a live demo and GitHub repository.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The goal of this app is to provide a clean and professional overview of all projects, making it easy to present work to recruiters, clients, or during interviews.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🎯 Description
+
+* Shows a list of projects with short and full descriptions.
+* Each project includes:
+
+  * Live demo link (GitHub Pages, GitHub Actions or Vercel)
+  * GitHub repository link
+  * Technology stack
+  * Project status (finished / inProgress / preparing)
+* Project statuses:
+
+  * **finished** — completed and published
+  * **inProgress** — completed but being improved or updated
+  * **preparing** — completed and currently polished for publication
+* Optimized layout for browsing many projects quickly and clearly.
+
+---
+
+## 🧰 Tech Stack
+
+* **React**
+* **TypeScript**
+* **Sass**
+* **BEM methodology (Block, Element, Modifier)**
+* **React Router 6**
+* **Vite**
+
+---
+
+## ⚙ Technical Notes
+
+* Static application:
+  content does not change based on user interactions, so the app uses **no hooks**.
+* Built with **Vite** and **yarn**.
+* Routing is implemented with **React Router 6**.
+* Styling is done with **Sass** and **BEM** for clean and maintainable structure.
+* Fully static deployment using **GitHub Pages**.
+
+
