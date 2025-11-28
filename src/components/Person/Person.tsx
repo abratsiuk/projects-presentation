@@ -46,7 +46,7 @@ export const Person = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          cv_Aleksandr_Bratsiuk.pdf
+          Aleksandr_Bratsiuk_Senior_NET_Developer_2025.pdf
         </a>
       </div>
     </div>
