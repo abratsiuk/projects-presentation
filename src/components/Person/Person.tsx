@@ -46,7 +46,7 @@ export const Person = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Oleksandr_Bratsiuk_NET_Full-Stack_Engineer_2026.pdf
+          Oleksandr_Bratsiuk_Senior Full-Stack .NET Developer_2026
         </a>
       </div>
     </div>
